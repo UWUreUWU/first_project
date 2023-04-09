@@ -5,8 +5,10 @@ class User:
         self.login = self.__data["Login"] if not log else log
         self.__password = ""
         self.imya = ""
-        self.familiya = ""
+        self.familiya = self.__d""
         self.podpiski = []
         self.podpischiki = []
 
-        print(self.__data)
+    def log_in(self, l, p):
+        if l == self.login and p == self.__password
+            return True
